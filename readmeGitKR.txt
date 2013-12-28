@@ -62,4 +62,6 @@ git push -u orangeb master
 
 -> geht
 
+git push scheint jetzt doch orangeb anzusprechen, da ich mich 
+im entsprechenden branch orangeb/master befinde?
 =======
