@@ -47,6 +47,13 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
+		    
+		    <div class='actions'>
+		        <ul>
+		        <li><hr></li>
+                <li><?php echo $this->Html->link(__('Import'), array('controller' => 'import')); ?> </li>
+		        </ul>
+		    </div>
 		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(

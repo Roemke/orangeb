@@ -8,6 +8,8 @@
 /build
 /dist
 /tags
+orangeb.sql
+*~
 
 # OS generated files #
 ######################
